@@ -1,0 +1,41 @@
+git init  > first time initializing
+git status  > check for new file
+
+git add  > add for commit
+git commit -m "message"  > record work locally
+git commit -am "message" > commit all file
+git commit -m "message" filename filename  > commit specific files
+git diff  > check previous change
+
+git log > check all the commit
+git log fileName > check all the commit  of specific file
+git show commit# > which was done on that commit
+
+git checkout commit# > ruturn to that commit
+git checkout commit# fileName > ruturn to that commit just this file
+cat fileName  > show file content
+git checkout master > ruturn to main commit
+git checkout master -f > ruturn to main commit (for only one file)
+
+git reset --soft commit#  > just remove commit - not remmove work text
+git reset --hard commit#  > remove both commit and work text
+
+git reflog > all the actions was taken
+git commit --amend > to merge with last commit
+
+git stash > to save and remove something from file
+git stash pop stas@{stashNo}  > undo stash
+git stash clear  > clean stash log
+
+git clean -f -n  > to chk delete untracked files from project
+git clean -f  > to delete untracked files from project
+
+git clone [link] > to clone for pushing to server
+git remote add [remote name ex: origin] git@[link]  > to add a remote for pushing
+git remote show  > to view all remote name
+git remote show [remote name ex: origin] > to check user
+
+git push [remote name ex: origin] [branch name ex: master]  > to push local commit to server
+git pull [remote name ex: origin] [branch name ex: master]  > to push local commit to server
+
+//.gitignore > this file contain the list of ignorred files
