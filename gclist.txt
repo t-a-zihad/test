@@ -39,3 +39,8 @@ git push [remote name ex: origin] [branch name ex: master]  > to push local comm
 git pull [remote name ex: origin] [branch name ex: master]  > to push local commit to server
 
 //.gitignore > this file contain the list of ignorred files
+
+//alias setup
+. ~/.myalisses
+
+alias gst="git status"
