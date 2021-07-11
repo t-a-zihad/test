@@ -44,3 +44,6 @@ git pull [remote name ex: origin] [branch name ex: master]  > to push local comm
 . ~/.myalisses
 
 alias gst="git status"
+
+
+git checkout -b "BranchName"
